@@ -78,3 +78,6 @@ The model has been deployed using Flask for the backend and connected to a front
 **Real-Time Prediction:** The app predicts the likelihood of a stroke based on the input data.
 
 **User-Friendly Interface:** Simple and intuitive design for non-technical users.
+
+### How to Run
+        git clone https://github.com/yourusername/stroke-prediction.git
