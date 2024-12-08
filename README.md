@@ -67,11 +67,3 @@ Combined ROC curves to compare the models' true and false positive rates.
 ![08 12 2024_05 52 53_REC](https://github.com/user-attachments/assets/cd91cdfa-9a16-4f33-8c5c-73143bc40228)
 
 ![08 12 2024_05 50 54_REC](https://github.com/user-attachments/assets/b4cca8e7-d179-44d4-8621-fbe0c9d0fd73)
-
-
-
-![08 12 2024_05 50 54_REC](https://github.com/user-attachments/assets/b259fab8-ba06-4328-9e4d-a510ad184181)
-
-![Uploading 08.12.2024_05.52.53_REC.png…]()
-
-
