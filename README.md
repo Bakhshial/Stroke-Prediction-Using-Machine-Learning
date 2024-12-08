@@ -9,11 +9,11 @@ This project aims to develop a predictive model that accurately identifies indiv
 ### Dataset
 **Source:**  https://www.kaggle.com/competitions/playground-series-s3e2/data
 **Features:**
-Demographic: Age, gender, etc.
-Health metrics: hypertension,BMI, glucose levels, heart disease, etc.
-Lifestyle factors: Smoking status.
-Target: Binary classification (1 = Stroke, 0 = No Stroke).
-Size: [15304 rows, 12 columns]
+   *Demographic:* Age, gender, etc.
+   *Health metrics:* hypertension,BMI, glucose levels, heart disease, etc.
+   *Lifestyle factors:* Smoking status.
+   *Target:* Binary classification (1 = Stroke, 0 = No Stroke).
+   *Size:* [15304 rows, 12 columns]
 ### Technologies Used
 **Python:** Data preprocessing, model development, and evaluation.
 **Libraries:**
