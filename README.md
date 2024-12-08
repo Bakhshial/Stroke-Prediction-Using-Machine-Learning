@@ -59,6 +59,7 @@ Trained multiple machine learning models, including:
       Naive Bayes
       Evaluated models using accuracy, precision, recall, F1-score, and ROC-AUC metrics.
       Used Voting Classifiers (Hard and Soft) for ensemble predictions.
+   Achieved **95% accuracy** with Forest Tree
 #### 5. Confusion Matrices and ROC Curves
 Plotted confusion matrices for all models to visualize performance.
 
