@@ -10,7 +10,7 @@ This project aims to develop a predictive model that accurately identifies indiv
 **Source:**  https://www.kaggle.com/competitions/playground-series-s3e2/data
 **Features:**
 
-   *Demographic:* Age, gender, etc.
+    Demographic:* Age, gender, etc.
    
    *Health metrics:* hypertension,BMI, glucose levels, heart disease, etc.
    
@@ -23,13 +23,13 @@ This project aims to develop a predictive model that accurately identifies indiv
 **Python:** Data preprocessing, model development, and evaluation.
 
 **Libraries:**
-    **Data Processing:** pandas, numpy.
+**Data Processing:** pandas, numpy.
     
-    **Visualization:** matplotlib, seaborn.
+**Visualization:** matplotlib, seaborn.
+
+**Machine Learning:** scikit-learn, XGBoost.
     
-    **Machine Learning:** scikit-learn, XGBoost.
-    
-    **Flask:** For model deployment with a front-end interface.
+**Flask:** For model deployment with a front-end interface.
 
 
 ### Steps Followed
@@ -63,3 +63,6 @@ Trained multiple machine learning models, including:
 Plotted confusion matrices for all models to visualize performance.
 
 Combined ROC curves to compare the models' true and false positive rates.
+
+![08 12 2024_05 50 54_REC](https://github.com/user-attachments/assets/b259fab8-ba06-4328-9e4d-a510ad184181)
+
