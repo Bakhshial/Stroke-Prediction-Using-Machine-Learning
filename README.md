@@ -29,7 +29,7 @@ This project aims to develop a predictive model that accurately identifies indiv
 
 **Machine Learning:** scikit-learn, XGBoost.
     
-**Flask:** For model deployment with a front-end interface.
+**Flask:** For model deployment with a front-end interface using HTML, CSS, and JavaScript.
 
 
 ### Steps Followed
@@ -68,3 +68,13 @@ Combined ROC curves to compare the models' true and false positive rates.
 ![08 12 2024_05 52 53_REC](https://github.com/user-attachments/assets/cd91cdfa-9a16-4f33-8c5c-73143bc40228)
 
 ![08 12 2024_05 50 54_REC](https://github.com/user-attachments/assets/b4cca8e7-d179-44d4-8621-fbe0c9d0fd73)
+
+#### 6. Deployment
+The model has been deployed using Flask for the backend and connected to a front-end interface to provide an interactive user experience.
+
+##### Features of the Web App:
+**User Input:** Users can enter their health metrics and demographic details.
+
+**Real-Time Prediction:** The app predicts the likelihood of a stroke based on the input data.
+
+**User-Friendly Interface:** Simple and intuitive design for non-technical users.
