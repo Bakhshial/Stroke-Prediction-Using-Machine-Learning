@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Stroke Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script> <!-- Ensure script loads after HTML -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>Brain Stroke Prediction</h1>
+        <form id="predictionForm" aria-label="Stroke Prediction Form">
+            <!-- Gender -->
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" aria-label="Select Gender" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+
+            <!-- Age -->
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="Enter your age" aria-label="Enter Age" required>
+            </div>
+
+            <!-- Hypertension -->
+            <div class="form-group">
+                <label for="hypertension">Hypertension:</label>
+                <select id="hypertension" name="hypertension" aria-label="Select Hypertension Status" required>
+                    <option value="" disabled selected>Do you have hypertension?</option>
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+            </div>
+
+            <!-- Heart Disease -->
+            <div class="form-group">
+                <label for="heart_disease">Heart Disease:</label>
+                <select id="heart_disease" name="heart_disease" aria-label="Select Heart Disease Status" required>
+                    <option value="" disabled selected>Do you have heart disease?</option>
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+            </div>
+
+            <!-- Ever Married -->
+            <div class="form-group">
+                <label for="ever_married">Ever Married:</label>
+                <select id="ever_married" name="ever_married" aria-label="Select Marital Status" required>
+                    <option value="" disabled selected>Are you married?</option>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                </select>
+            </div>
+
+            <!-- Work Type -->
+            <div class="form-group">
+                <label for="work_type">Work Type:</label>
+                <select id="work_type" name="work_type" aria-label="Select Work Type" required>
+                    <option value="" disabled selected>Choose your work type</option>
+                    <option value="Private">Private</option>
+                    <option value="Self-employed">Self-employed</option>
+                    <option value="Govt_job">Government Job</option>
+                    <option value="children">Children</option>
+                </select>
+            </div>
+
+            <!-- Residence Type -->
+            <div class="form-group">
+                <label for="Residence_type">Residence Type:</label>
+                <select id="Residence_type" name="Residence_type" aria-label="Select Residence Type" required>
+                    <option value="" disabled selected>Select your residence type</option>
+                    <option value="Urban">Urban</option>
+                    <option value="Rural">Rural</option>
+                </select>
+            </div>
+
+            <!-- Average Glucose Level -->
+            <div class="form-group">
+                <label for="avg_glucose_level">Average Glucose Level:</label>
+                <input type="number" id="avg_glucose_level" name="avg_glucose_level" placeholder="e.g., 105.5"
+                    step="0.01" aria-label="Enter Average Glucose Level" required>
+            </div>
+
+            <!-- BMI -->
+            <div class="form-group">
+                <label for="bmi">BMI:</label>
+                <input type="number" id="bmi" name="bmi" placeholder="e.g., 24.5" step="0.1" aria-label="Enter BMI"
+                    required>
+            </div>
+
+            <!-- Smoking Status -->
+            <div class="form-group">
+                <label for="smoking_status">Smoking Status:</label>
+                <select id="smoking_status" name="smoking_status" aria-label="Select Smoking Status" required>
+                    <option value="" disabled selected>Select smoking status</option>
+                    <option value="formerly smoked">Formerly Smoked</option>
+                    <option value="never smoked">Never Smoked</option>
+                    <option value="smokes">Smokes</option>
+                    <option value="Unknown">Unknown</option>
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="button" id="submitBtn">Predict</button>
+        </form>
+
+        <!-- Result and Error Section -->
+        <div class="form-group">
+            <label for="resultBox">Result:</label>
+            <textarea id="resultBox" readonly rows="4" placeholder="Result will be displayed here."></textarea>
+            <div id="error"></div> <!-- Error section -->
+        </div>
+
+    </div>
+</body>
+
+</html>

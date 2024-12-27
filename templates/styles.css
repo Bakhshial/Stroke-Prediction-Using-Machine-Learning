@@ -1,0 +1,132 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://media.gettyimages.com/id/1312706413/photo/modern-hospital-building.jpg?s=1024x1024&w=gi&k=20&c=2nU8Ac2_g9NiiRTgZXfBqSRx50tR4x8R7io7X1OCUFg=') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+/* Container for the form */
+.container {
+    background-color: white; /* Solid white background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 550px; /* Increased width */
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: aqua;
+}
+
+/* Form layout */
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Two-column layout */
+    gap: 15px; /* Add space between elements */
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333; /* Dark color for labels */
+    align-self: center; /* Align labels vertically */
+}
+
+select, input[type="number"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    width: 100%; /* Full width for inputs */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Styling for the button */
+button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    grid-column: span 2; /* Span button across both columns */
+    width: 100%; /* Full width for the button */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Result Section */
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Error message styling */
+#error {
+    color: red;
+}
+
+/* Result Box styling */
+textarea#resultBox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+}
+
+/* Textarea hover effect */
+textarea#resultBox:hover {
+    border-color: #007BFF;
+}
+
+/* Textarea focus effect */
+textarea#resultBox:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+/* Error Message Section */
+.form-group {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Make sure everything fits without scroll */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    max-height: 100%;
+    overflow: auto;
+}
