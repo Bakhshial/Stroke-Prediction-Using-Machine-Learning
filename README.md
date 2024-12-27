@@ -11,13 +11,9 @@ This project aims to develop a predictive model that accurately identifies indiv
 **Features:**
 
     Demographic:* Age, gender, etc.
-   
    *Health metrics:* hypertension,BMI, glucose levels, heart disease, etc.
-   
    *Lifestyle factors:* Smoking status.
-   
    *Target:* Binary classification (1 = Stroke, 0 = No Stroke).
-   
    *Size:* [15304 rows, 12 columns]
 ### Technologies Used
 **Python:** Data preprocessing, model development, and evaluation.
@@ -78,6 +74,9 @@ The model has been deployed using Flask for the backend and connected to a front
 **Real-Time Prediction:** The app predicts the likelihood of a stroke based on the input data.
 
 **User-Friendly Interface:** Simple and intuitive design for non-technical users.
+
+![Front_end](https://github.com/user-attachments/assets/69883678-ff9f-4398-94ca-c5e5d48045d6)
+
 
 ### How to Run
         git clone https://github.com/yourusername/stroke-prediction.git
