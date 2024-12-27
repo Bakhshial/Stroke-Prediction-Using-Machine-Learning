@@ -75,7 +75,8 @@ The model has been deployed using Flask for the backend and connected to a front
 
 **User-Friendly Interface:** Simple and intuitive design for non-technical users.
 
-![Front_end](https://github.com/user-attachments/assets/69883678-ff9f-4398-94ca-c5e5d48045d6)
+![Frontend1](https://github.com/user-attachments/assets/648c8e78-59a6-4d8a-af90-6785b27e1742)
+
 
 
 ### How to Run
